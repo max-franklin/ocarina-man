@@ -6,6 +6,13 @@ I want a website of my own making where I can write blog posts about my tech and
 
 - Landing page
     - Splash image of something I love.. Mountains? Music? Ocarina photo from Mike?
+    - A scrolling landing page would be pretty neat... Something cliche like 
+        - "Hi, I'm Max", scroll scroll
+        - profile photo of max that's decently unassuming, scroll scroll
+        - something light hearted about yourself, "I'm an AK boy with a love for the outdoors"
+        - "you might have heard me tooting my ocarina if you've ever hiked the chugach!"
+        - "When I'm not in the outdoors fiddling around on my ocarina"
+        - "You can find me indoors working on sating my techie appetite"
     - Call to action to sign up for email updates of blog posts
     - Display cards for 6 most recent blog posts
 - Navbar
