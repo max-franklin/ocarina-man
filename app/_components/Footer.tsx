@@ -6,7 +6,7 @@ import instagramIcon from '../_assets/6929237_instagram_icon.png'
 
 export default function Footer() {
     return (
-        <footer className="div">
+        <footer className="bg-green-100">
             <p>Maxwell Franklin</p>
             <label htmlFor="subscribeButton">Subscribe for email updates:</label>
             <input type="text" />

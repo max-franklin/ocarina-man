@@ -1,7 +1,7 @@
 import { useIsVisible } from '@/hooks/hooks'
 import { useEffect, useRef, useState } from 'react'
 
-export default function FadeInDiv({ children }) {
+export default function FadeInDiv({ children, className }) {
     const ref = useRef()
     const isVisible = useIsVisible(ref)
     const [wasRendered, setWasRendered] = useState(false)
@@ -13,7 +13,7 @@ export default function FadeInDiv({ children }) {
     }, [isVisible])
   
     return (
-      <div ref={ref} className={`transition-opacity ease-in duration-700 ${isVisible || wasRendered ? "opacity-100" : "opacity-0"}`}>
+      <div ref={ref} className={`${className} flex flex-col items-center transition-opacity ease-in duration-700 ${isVisible || wasRendered ? "opacity-100" : "opacity-0"}`}>
         { children }
       </div>
     )
