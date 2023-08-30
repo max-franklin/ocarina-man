@@ -8,10 +8,10 @@ export default function Footer() {
     return (
         <footer className="bg-gradient-to-b from-slate-300 to-slate-100">
             <div className='h-px bg-gray-400 mb-4'></div>
-            <div className='flex justify-center'>
+            <div className='flex flex-col mx-4 space-y-2 sm:flex sm:flex-row sm:justify-center sm:mx-0 sm:space-y-0'>
                 <label htmlFor="subscribeButton" className='mr-2 self-center'>Subscribe for email updates:</label>
-                <input type="text" className='rounded-md px-2 bg-gray-100 border border-solid border-gray-400'/>
-                <button id="subscribeButton" className='px-3 py-2 mx-2 rounded-md bg-green-300 border border-solid border-green-400'>Subscribe</button>
+                <input type="text" className='rounded-md py-1 px-2 bg-gray-100 border border-solid border-gray-400'/>
+                <button id="subscribeButton" className='py-1 sm:px-3 sm:py-2 sm:mx-2 rounded-md bg-green-300 hover:bg-green-200 border border-solid border-green-400'>Subscribe</button>
             </div>
             <div className='flex justify-center py-4 space-x-2'>
                 <Image
