@@ -1,5 +1,6 @@
 "use client"
 import Image from 'next/image'
+import Link from 'next/link'
 
 import savageRiverMax from './_assets/IMG_2665.jpg'
 import mccarthyJumboTrailMax from './_assets/IMG-8085.jpg'
@@ -16,7 +17,7 @@ export default function Home() {
     <main className='bg-slate-100 px-4'>
     {/* <main className='bg-gradient-to-t from-slate-100 px-4'> */}
       <div className='sm:container sm:mx-auto flex flex-col items-center antialiased text-center text-xl sm:text-2xl'>
-        <FadeInDiv className='pt-12'>
+        <FadeInDiv className='pt-4'>
           <h1 className='pb-4'>Hi, I'm Max!</h1>
           <Image 
             className='rounded-md border border-gray-500'
@@ -70,7 +71,7 @@ export default function Home() {
           </div>
         </FadeInDiv>
         <FadeInDiv className='py-12'>
-          <h1>Head over to my blog page if you want to follow my (mis)adventures in the world!</h1>
+          <h1>Head over to my <Link href='/blog' className='text-blue-600 hover:text-blue-400 hover:underline'>blog page</Link> if you want to follow my (mis)adventures in the world!</h1>
         </FadeInDiv>
       </div>
     </main>
