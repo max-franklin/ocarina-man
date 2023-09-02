@@ -1,8 +1,6 @@
-import IconLink from "./IconLink";
-
-import FacebookLink from "./FacebookLink";
-import LinkedInLink from "./LinkedInLink";
-import InstagramLink from "./InstagramLink";
+import FacebookLink from "@/components/FacebookLink";
+import LinkedInLink from "@/components/LinkedInLink";
+import InstagramLink from "@/components/InstagramLink";
 
 export default function Footer() {
     return (

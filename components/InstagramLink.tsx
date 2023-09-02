@@ -1,4 +1,4 @@
-import IconLink from "./IconLink";
+import IconLink from "@/components/IconLink";
 
 import instagramIcon from '@/public/assets/6929237_instagram_icon.png'
 

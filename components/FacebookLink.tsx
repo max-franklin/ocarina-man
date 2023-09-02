@@ -1,4 +1,4 @@
-import IconLink from "./IconLink";
+import IconLink from "@/components/IconLink";
 
 import facebookIcon from '@/public/assets/4102573_applications_facebook_media_social_icon.png'
 

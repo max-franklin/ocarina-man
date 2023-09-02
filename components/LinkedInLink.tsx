@@ -1,4 +1,4 @@
-import IconLink from "./IconLink";
+import IconLink from "@/components/IconLink";
 
 import linkedInIcon from '@/public/assets/5296501_linkedin_network_linkedin logo_icon.png'
 
