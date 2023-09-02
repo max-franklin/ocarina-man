@@ -1,9 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import IconLink from "./IconLink";
 
-import facebookIcon from '../_assets/4102573_applications_facebook_media_social_icon.png'
-import linkedInIcon from '../_assets/5296501_linkedin_network_linkedin logo_icon.png'
-import instagramIcon from '../_assets/6929237_instagram_icon.png'
+import FacebookLink from "./FacebookLink";
+import LinkedInLink from "./LinkedInLink";
+import InstagramLink from "./InstagramLink";
 
 export default function Footer() {
     return (
@@ -15,33 +14,9 @@ export default function Footer() {
                 <button id="subscribeButton" className='py-1 sm:px-3 sm:py-2 sm:mx-2 rounded-md bg-green-300 hover:bg-green-200 border border-solid border-green-400'>Subscribe</button>
             </div>
             <div className='flex justify-center py-4 space-x-2'>
-                <Link href='/facebook'>
-                    <Image
-                        src={facebookIcon}
-                        width={32}
-                        height={32}
-                        alt="Facebook Icon"
-                        className="hover:opacity-50"
-                    />
-                </Link>
-                <Link href='/linkedin'>
-                    <Image
-                        src={linkedInIcon}
-                        width={32}
-                        height={32}
-                        alt="LinkedIn Icon"
-                        className="hover:opacity-50"
-                    />
-                </Link>
-                <Link href='/instagram'>
-                    <Image
-                        src={instagramIcon}
-                        width={32}
-                        height={32}
-                        alt="Instagram Icon"
-                        className="hover:opacity-50"
-                    />
-                </Link>
+                <FacebookLink width={32} height={32} />
+                <LinkedInLink width={32} height={32} />
+                <InstagramLink width={32} height={32} />
             </div>
         </footer>
     )
