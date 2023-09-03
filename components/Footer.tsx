@@ -20,7 +20,7 @@ export default function Footer() {
     }
 
     return (
-        <footer className="bg-gradient-to-t from-slate-400 to-slate-100">
+        <footer className="bg-gradient-to-t from-slate-400 to-slate-100 pb-4">
             <div className="pb-1 px-1 space-x-2 flex justify-around overflow-x-hidden">
                 <Invaders />
             </div>
@@ -30,10 +30,13 @@ export default function Footer() {
                 <input type="text" className='rounded-md py-1 px-2 bg-gray-100 border border-solid border-gray-400'/>
                 <button id="subscribeButton" className='py-1 sm:px-3 sm:py-2 sm:mx-2 rounded-md bg-green-300 hover:bg-green-200 border border-solid border-green-400'>Subscribe</button>
             </div>
-            <div className='flex justify-center py-4 space-x-2'>
+            <div className='flex justify-center py-2 space-x-2'>
                 <FacebookLink width={32} height={32} />
                 <LinkedInLink width={32} height={32} />
                 <InstagramLink width={32} height={32} />
+            </div>
+            <div className="text-center">
+                <p>Max Franklin © 2023</p>
             </div>
         </footer>
     )
