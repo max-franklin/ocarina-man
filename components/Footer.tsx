@@ -1,10 +1,29 @@
+import Image from "next/image";
+
+import spaceInvaderIcon from "@/public/assets/6646223_arcade_invaders_pixel_retro_space_icon.png"
+
 import FacebookLink from "@/components/FacebookLink";
 import LinkedInLink from "@/components/LinkedInLink";
 import InstagramLink from "@/components/InstagramLink";
 
 export default function Footer() {
+    const Invaders = () => {
+        let invaders = []
+        for (let index = 0; index < 100; index++) {
+            if (index % 2 == 0) {
+                invaders.push(<Image className="py-2 animate-blocky-bounce" src={spaceInvaderIcon} width={24} height={24} alt=""/>)
+            } else {
+                invaders.push(<Image className="py-2 animate-blocky-bounce-up" src={spaceInvaderIcon} width={24} height={24} alt=""/>)
+            }
+        }
+        return invaders
+    }
+
     return (
-        <footer className="bg-gradient-to-t from-slate-300 to-slate-100">
+        <footer className="bg-gradient-to-t from-slate-400 to-slate-100">
+            <div className="pb-1 px-1 space-x-2 flex justify-around overflow-x-hidden">
+                <Invaders />
+            </div>
             <div className='h-px bg-gray-500 mb-4'></div>
             <div className='flex flex-col mx-4 space-y-2 sm:flex sm:flex-row sm:justify-center sm:mx-0 sm:space-y-0'>
                 <label htmlFor="subscribeButton" className='mr-2 self-center'>Subscribe for email updates:</label>

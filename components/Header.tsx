@@ -19,9 +19,9 @@ export default function Header({ children }) {
                         <li><Link href='/blog' className='text-blue-950 hover:text-slate-600 hover:underline'>Blog Posts</Link></li>
                     </ul>
                     <div className="flex-2 flex flex-row space-x-4 justify-center pt-2">
-                        <Image className="animate-bounce" src={spaceInvaderIcon} width={24} height={24} alt=""/>
+                        <Image className="animate-blocky-bounce" src={spaceInvaderIcon} width={24} height={24} alt=""/>
                         {children}
-                        <Image className="animate-bounce" src={spaceInvaderIcon} width={24} height={24} alt=""/>
+                        <Image className="animate-blocky-bounce" src={spaceInvaderIcon} width={24} height={24} alt=""/>
                     </div>
                     <ul className='flex-1 flex flex-row space-x-2 justify-end'>
                         <li>
