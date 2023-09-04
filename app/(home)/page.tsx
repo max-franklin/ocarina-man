@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/Link'
 
 import savageRiverMax from '@/public/assets/IMG_2665.jpg'
 import mccarthyJumboTrailMax from '@/public/assets/IMG-8085.jpg'
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </FadeInDiv>
         <FadeInDiv className='py-12'>
-          <h1>Head over to my <Link href='/blog' className='text-blue-600 hover:text-blue-400 hover:underline'>blog page</Link> if you want to follow my (mis)adventures in the world!</h1>
+          <h1>Head over to my <Link href='/blog' className='text-blue-600 hover:text-blue-400 hover:underline hover:cursor-rocket-engaged'>blog page</Link> if you want to follow my (mis)adventures in the world!</h1>
         </FadeInDiv>
       </div>
     </main>
