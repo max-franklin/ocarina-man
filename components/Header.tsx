@@ -16,8 +16,8 @@ export default function Header({ children }) {
                 <div className="flex flex-col md:space-x-12 space-y-2 md:space-y-0 md:flex-row items-center text-center justify-between pt-2 px-2">
                     <ul className="flex-1 flex flex-row space-x-4">
                         <li><Link href='/'>Home</Link></li>
-                        <li><Link href='/about'>About Me</Link></li>
-                        <li><Link href='/blog'>Blog Posts</Link></li>
+                        <li><Link href='/about'>About</Link></li>
+                        <li><Link href='/blog'>Blog</Link></li>
                     </ul>
                     <div className="flex-2 flex flex-row space-x-4 justify-center pt-2">
                         <Image className="animate-blocky-bounce" src={spaceInvaderIcon} width={24} height={24} alt=""/>
