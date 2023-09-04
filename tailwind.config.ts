@@ -34,6 +34,10 @@ const config: Config = {
       animation: {
         'blocky-bounce': 'blocky-bounce 1s steps(1, end) infinite',
         'blocky-bounce-up': 'blocky-bounce-up 1s steps(1, end) infinite',
+      },
+      cursor: {
+        'rocket': 'url(../public/assets/startup.png), auto',
+        'rocket-engaged': 'url(../public/assets/startup_engaged.png), pointer',
       }
     },
   },

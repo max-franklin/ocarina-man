@@ -14,9 +14,8 @@ import FadeInDiv from '@/components/FadeInDiv'
 export default function Home() {
 
   return (
-    <main className='bg-slate-100 px-4'>
-    {/* <main className='bg-gradient-to-t from-slate-100 px-4'> */}
-      <div className='sm:container sm:mx-auto flex flex-col items-center antialiased text-center text-xl sm:text-2xl'>
+    <main className='bg-slate-100 px-4 pt-20'>
+      <div className='sm:mx-auto flex flex-col items-center antialiased text-center text-xl sm:text-2xl'>
         <FadeInDiv className='pt-4'>
           <h1 className='pb-4'>Hi, I'm Max!</h1>
           <Image 

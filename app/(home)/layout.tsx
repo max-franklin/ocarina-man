@@ -18,9 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className + " cursor-rocket"}>
         <Header>
-          <h1>akstackclimber</h1>
+          <h1>Max Franklin</h1>
         </Header>
         {children}
         <Footer />
